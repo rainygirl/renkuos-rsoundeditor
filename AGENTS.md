@@ -31,7 +31,7 @@ reallocate the document, the instant the recorder starts.
 ## Four defects in the platform, fixed in the VAIO P patch set
 
 Recording produced silence with no error anywhere. The fixes live in
-`haiku-sony-vaio-p-patch`, not here, but they are what this app depends on:
+`renkuos-sony-vaio-p-patch`, not here, but they are what this app depends on:
 
 1. `BMediaRecorder::Start()` treated "is a time source" and "is the node we
    pull from" as alternatives. Every multi_audio device node is both, so the
